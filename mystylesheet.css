@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 title {
 font-family: "Unica One", cursive;
-  
+
 }
 
 h1 {
@@ -36,6 +36,12 @@ h2 {
 body{
 	background-color:#ebe3ce;
   text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 #container{
