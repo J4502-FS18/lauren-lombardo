@@ -50,12 +50,12 @@ img {border: 0;
 
 
 a:link, a:visited, a:active {
-    color: #C7D9B7;
+    color: #89023E;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
     padding: 4px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Crimson Text", serif, "Georgia", serif;
 }
 
 #nav a:hover, a:active {
