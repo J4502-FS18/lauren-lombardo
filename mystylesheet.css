@@ -3,7 +3,7 @@ html {
 }
 
 p {
-    font-family: "Raleway", Georgia, "Times New Roman", serif;
+    font-family: "Crimson Text", serif, "Georgia", serif;
 	font-size: 1rem;
 	line-height: 1.5rem;
   text-align: center;
@@ -14,8 +14,13 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-family: "Raleway", sans-serif;
     text-align: center;
+}
+
+title {
+font-family: "Unica One", cursive;
+  
 }
 
 h1 {
