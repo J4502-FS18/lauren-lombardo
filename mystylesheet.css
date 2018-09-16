@@ -48,6 +48,27 @@ img {border: 0;
 
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #F3E1DD;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #F3E1DD;
+    color: white;
+}
 
 a:link, a:visited, a:active {
     color: #89023E;
