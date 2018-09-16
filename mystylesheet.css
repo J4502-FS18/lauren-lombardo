@@ -26,6 +26,7 @@ h2 {
 
 body{
 	background-color:#ebe3ce;
+  text-align: center;
 }
 
 #container{
@@ -63,7 +64,7 @@ body{
 
 .caption {
     color: black;
-    font-family: "Merriweather", Georgia, "Times New Roman", serif;
+    font-family: "Raleway", Georgia, "Times New Roman", serif;
     font-style: italic;
     font-size: 0.8em;
     margin-top: 0;
