@@ -53,9 +53,14 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 100 auto;
     background-color: #F3E1DD;
     text-align: center;
+}
+
+#nav ul {
+    display: inline-block;
+    list-style-type: none;
 }
 
 li a {
@@ -90,11 +95,9 @@ a:link, a:visited, a:active {
 
 }
 
-div #nav{
-  text-align: center;
-}
-div #nav ul{
-  display: inline-block;
+#container {
+  width: 100 auto;
+
 }
 
 .caption {
