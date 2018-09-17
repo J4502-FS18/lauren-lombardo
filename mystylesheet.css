@@ -90,6 +90,11 @@ a:link, a:visited, a:active {
 
 }
 
+#container {
+  text-align: center;
+
+}
+
 .caption {
     color: black;
     font-family: "Raleway", Georgia, "Times New Roman", serif;
