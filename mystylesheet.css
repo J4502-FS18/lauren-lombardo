@@ -90,9 +90,11 @@ a:link, a:visited, a:active {
 
 }
 
-#container {
+div #nav{
   text-align: center;
-
+}
+div #nav ul{
+  display: inline-block;
 }
 
 .caption {
