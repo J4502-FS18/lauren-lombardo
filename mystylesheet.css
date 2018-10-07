@@ -41,35 +41,23 @@ body{
 
 
 img {border: 0;
-
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #F3E1DD;
-}
+.container {
+	    flex-direction: row;
+			flex-wrap: wrap;
+	    background-color: #89023E ;
+		}
 
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #946379;
-}
-
-
-
+.container a {
+		    color: #F3E1DD;
+		    padding: .5px 80px;
+		    text-decoration: none;
+		    text-align: center;
+		}
+		.container a:hover {
+		    background-color: #F3E1DD;
+		    color: #89023E;
+		}
 
 
 a:link, a:visited, a:active {
@@ -83,10 +71,7 @@ a:link, a:visited, a:active {
 
 
 
-#container {
-  width: 100 auto;
 
-}
 
 .caption {
     color: black;
@@ -103,3 +88,9 @@ a:link, a:visited, a:active {
     font-size: 0.8em;
     border-top: 1px solid #F3E1DD
 }
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-flow: column wrap;
