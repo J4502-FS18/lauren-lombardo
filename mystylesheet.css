@@ -1,82 +1,27 @@
-html {
-	font-size: 100%
-}
-
-p {
-    font-family: "Crimson Text", serif, "Georgia", serif;
-	font-size: 1rem;
-	line-height: 1.5rem;
-  text-align: center;
-}
-
-.italic {
-	font-style: italic;
-}
-
-h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
-    text-align: center;
-}
-
-
-
-
-h1 {
-  font-family: "Unica One", cursive;
-	font-size: 2.5rem;
-  text-align: center;
-  color: black;
-}
-
-h2 {
-	font-size: 1.5rem;
-  text-align: center;
-}
-
-body{
-	background-color:#F3E1DD;
-  text-align: center;
-}
-
-
-
-img {border: 0;
-}
-
-
-
-a:link, a:visited, a:active {
-    color: #89023E;
-    font-weight: bold;
-    text-align:center;
-    text-decoration: none;
-    padding: 4px;
-    font-family: "Crimson Text", serif, "Georgia", serif;
-}
-
-
-
-
-
-.caption {
-    color: black;
-    font-family: "Raleway", Georgia, "Times New Roman", serif;
-    font-style: italic;
-    font-size: 0.8em;
-    margin-top: 0;
-    text-align: center;
-}
-
-#footer {
-    color: #CC7178;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 0.8em;
-    border-top: 1px solid #F3E1DD
+.title {
+  display: flex;
+  justify-content: space-between;
 }
 
 nav ul {
   display: flex;
   flex-flow: column;
+}
+
+.authorbox img {
+  /*visibility: hidden;*/
+  display: none;
+}
+
+
+
+article {
+  margin-bottom: 0.7em;
+  border-bottom: 1px solid #ccc;
+}
+
+article:last-of-type {
+  border-bottom: none;
 }
 
 @media screen and (min-width: 450px) {
@@ -88,19 +33,78 @@ nav ul {
 
 }
 
-.container a {
-		    color: #F3E1DD;
-		    padding: .5px 80px;
-		    text-decoration: none;
-		    text-align: center;
-		}
-.container a:hover {
-		    background-color: #F3E1DD;
-		    color: #89023E;}
+@media screen and (min-width: 600px) {
+
+    #container {
+        width: 80%;
+    }
+
+    .authorbox img {
+      display: block;
+      width: 100%;
+      margin-top: 0.5em;
+    }
+
+    .authorbox {
+      width: 25%;
+      max-width: 200px;
+      float: left;
+      margin-right: 20px;
+    }
+}
 
 @media screen and (min-width: 800px) {
-			nav ul li {
-					margin: 5px;}
+    .item1 {
+      margin-right: auto;
+    }
 
-				}
-				
+    nav ul li {
+      margin: 5px;
+    }
+
+
+}
+
+@media screen and (min-width:1000px) {
+  article {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "a b b"
+        "c c e"
+        ". d d";
+  }
+
+  .authorbox {
+    width: 100%;
+    grid-area: a;
+  }
+
+  .section1 {
+    grid-area: b;
+  }
+
+  .image {
+    grid-area: c;
+  }
+
+
+
+  .section1 p:first-of-type {
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (min-width:1200px) {
+  article {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "a b b e"
+        "c c c ."
+        ". d d .";
+  }
+}

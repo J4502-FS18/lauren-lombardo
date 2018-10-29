@@ -1,0 +1,105 @@
+html {
+	font-size: 100%
+}
+
+p {
+    font-family: "Crimson Text", serif, "Georgia", serif;
+	font-size: 1rem;
+	line-height: 1.5rem;
+  text-align: center;
+}
+
+.italic {
+	font-style: italic;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+
+
+
+h1 {
+  font-family: "Unica One", cursive;
+	font-size: 2.5rem;
+  text-align: center;
+  color: black;
+}
+
+h2 {
+	font-size: 1.5rem;
+  text-align: center;
+}
+
+body{
+	background-color:#F3E1DD;
+  text-align: center;
+}
+
+
+
+img {border: 0;
+}
+
+
+
+a:link, a:visited, a:active {
+    color: #89023E;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+    padding: 4px;
+    font-family: "Crimson Text", serif, "Georgia", serif;
+}
+
+
+
+
+
+.caption {
+    color: black;
+    font-family: "Raleway", Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 0.8em;
+    margin-top: 0;
+    text-align: center;
+}
+
+#footer {
+    color: #CC7178;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.8em;
+    border-top: 1px solid #F3E1DD
+}
+
+nav ul {
+  display: flex;
+  flex-flow: column;
+}
+
+@media screen and (min-width: 450px) {
+
+    nav ul {
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+}
+
+.container a {
+		    color: #F3E1DD;
+		    padding: .5px 80px;
+		    text-decoration: none;
+		    text-align: center;
+		}
+.container a:hover {
+		    background-color: #F3E1DD;
+		    color: #89023E;}
+
+@media screen and (min-width: 800px) {
+			nav ul li {
+					margin: 5px;}
+
+				}
