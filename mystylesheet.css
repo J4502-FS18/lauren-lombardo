@@ -150,8 +150,7 @@ body{
 }
 
 
-
-img {border: 0;
+.img {border: 0;
 }
 
 a:link, a:visited, a:active {
