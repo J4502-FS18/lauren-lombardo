@@ -74,9 +74,26 @@ a:link, a:visited, a:active {
     border-top: 1px solid #F3E1DD
 }
 
-.container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	flex-flow: column wrap;
+nav ul {
+  display: flex;
+  flex-flow: column;
 }
+
+@media screen and (min-width: 450px) {
+
+    nav ul {
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+}
+
+.container a {
+		    color: #F3E1DD;
+		    padding: .5px 80px;
+		    text-decoration: none;
+		    text-align: center;
+		}
+.container a:hover {
+		    background-color: #F3E1DD;
+		    color: #89023E;}
