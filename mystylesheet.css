@@ -89,9 +89,10 @@ article:last-of-type {
     }
 
     .authorbox img {
-      display: block;
+      display: none;
       width: 100%;
       margin-top: 0.5em;
+
     }
 
     .authorbox {
